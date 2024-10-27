@@ -1,0 +1,192 @@
+
+body {
+    background-color: #272727;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px 50px 20px;
+    background: linear-gradient(1000deg, #414141, #9fe855);
+    border-radius: 40px;
+    width: 1300px;
+    margin-left: 20px;
+    margin-top: 250px;
+}
+
+h1 {
+    color: #10974B;
+    text-align: center;
+    font-size: 40px;
+}
+
+.matriculas,
+.educadores,
+.alunos,
+.familia {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 25px;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.matriculas:hover,
+.educadores:hover,
+.alunos:hover,
+.familia:hover {
+    background-color: yellowgreen;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 850px;
+    position: absolute;
+    color: white;
+}
+
+.texto {
+    position: absolute;
+    display: grid;
+    background: linear-gradient(1000deg, #414141, #9fe855);
+    border-radius: 40px;
+    padding: 20px 50px 20px;
+    color: black;
+    width: 1300px;
+    margin-left: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+    flex-direction: column;
+}
+
+.texto h2 {
+    text-align: center;
+}
+
+.informacao {
+    position: absolute;
+    background: linear-gradient(90deg, #9fe855, #414141);
+    padding: 20px 10px 75px;
+    border-radius: 40px;
+    width: 270px;
+    margin-left: 1450.5px;
+    font-size: medium;
+    margin-top: -80px;
+
+    text-align: center;
+}
+
+
+.informacao h2 {
+    text-align: center;
+    font-size: large;
+}
+
+.contato {
+    
+    position: absolute;
+    background: linear-gradient(90deg, #9fe855, #414141);
+    padding: 20px 10px 75px;
+    border-radius: 40px;
+    width: 270px;
+    font-size:medium;
+    margin-left: 1450.5px;
+    font-size: medium;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.contato h2 {
+    text-align: center;
+    font-size: large;
+}
+
+.header {
+    background-color: #2d2d2d;
+    box-shadow: 1px 1px 4px #1c1c1c;
+    height: 56px;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    
+    h1{
+        font-size: 15px;
+    }
+    img {
+        position: static;
+        display: flex;
+        width: fit-content;
+        width: 100px;
+        margin:auto;
+
+        
+        
+ 
+    }
+
+    .header {
+        padding: 0 5%;
+    }
+    ul{
+        display: flex;
+        width: auto;
+        padding: 1px;
+        margin: 1em 0.5em 1em;
+        font-size: small;
+        
+    }
+    .educadores,
+    .alunos,
+    .familia{
+    display: flex;
+    font-size: small;
+    width: auto;
+    
+}
+
+.texto{
+    width: auto;;
+    font-size: small;
+    margin: 1em 0em;
+    position: sticky;
+}
+    
+
+
+.informacao{
+    margin: -0em 1em;
+    width: auto;
+    font-size: small;
+    margin-left: 9.5px;
+    margin-bottom: 12px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: static;
+    text-align: center;
+}
+
+.contato{
+    margin: -0em 1em;
+    width: auto;
+    font-size: small;
+    margin-left: 9.5px;
+    margin-bottom: 12px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: static;
+    text-align: center;
+    
+   
+
+
+
+}
+}

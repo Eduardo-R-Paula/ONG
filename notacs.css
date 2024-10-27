@@ -1,0 +1,52 @@
+body{
+    background-color:#272727;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+h1{
+    color: #10974B; 
+}
+.table{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    overflow:hidden;
+    border-collapse:separate;
+    border: solid #ccc 1px;
+    -webkit-border-radius: 25px;
+       -moz-border-radius: 25px;
+            border-radius: 25px;
+}
+
+
+table td {
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+table th{
+    color: black;
+    background-color: rgb(122, 113, 113);
+    font-weight: normal;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+}
+.d-flex{
+    background-color: #303847;
+    font-size: 20px;
+    text-align: center;
+    width: 100px;
+    padding: 20px;
+    border-radius: 50px;
+    margin-left: 90%;
+    margin-top: -50px;
+    
+  }
+  .botaosair{
+    
+    text-decoration: none;
+    color: white;
+  }
